@@ -3,8 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 
 @font-face {
-    font-family:'Droid';
-    src: url(fonts/idroid.otf);
+    font-family:"Droid";
+    src: url(../fonts/idroid.otf);
 }
 
 :root{
@@ -20,7 +20,7 @@
     --bgverde4: rgb(98, 226, 113);
 
     --fontepadrao: 'Open Sans', Arial, Helvetica, sans-serif;
-    --fontedroid: 'Droid', sans-serif;
+    --fontedroid: "Droid", sans-serif;
 }
 
 body{
@@ -87,7 +87,7 @@ main{
     box-shadow: 0px 3px 3px black;
 }
 
-section > h1{
+.topics{
     font: 2.2em var(--fontedroid);
     color: var(--verde5);
     margin-bottom: 10px;
